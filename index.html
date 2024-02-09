@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greatest League of Warriors (GLOW)</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #4CAF50;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .dropdown {
+            display: inline-block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            background-color: #4CAF50;
+            transition: background-color 0.3s;
+        }
+
+        .dropdown:hover {
+            background-color: #45a049;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+            background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('background-image.jpg') center/cover no-repeat;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+        }
+
+        #about, #videos, #contact {
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .view-channel-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 15px 30px;
+            background-color: #FF4500;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .view-channel-btn:hover {
+            background-color: #E04000;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 30px 10px; /* Increased padding for more space before the footer */
+            text-align: center;
+        }
+        
+        #videos {
+            position: relative;
+        }
+
+        .video-container {
+            display: inline-block;
+            margin: 0 10px; /* Adjust the spacing between videos */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Greatest League of Warriors (GLOW)</h1>
+    </header>
+
+    <nav>
+        <a class="dropdown" href="#about">About Us</a> |
+        <a class="dropdown" href="#videos">Latest Videos</a> |
+        <a class="dropdown" href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Greatest League of Warriors (GLOW), a channel dedicated to exploring the realms of religion, humanity, and freedom. We are a passionate team of more than 5 individuals who collaborate to create content that informs and inspires viewers globally.</p>
+        <p>At GLOW, we firmly stand in support of Palestine, advocating for what we believe is right and logical. We invite you to engage with us, whether you agree or disagree, by leaving comments on our videos or reaching out via email at <a href="mailto:a68568431@gmail.com">a68568431@gmail.com</a>.</p>
+        <p>Our commitment is to provide a safe viewing experience for audiences of all ages. We refrain from promoting alcohol, drugs, NSFW content, and aim to create content that is suitable for kids as well. If you resonate with our values, consider subscribing to stay informed and connected.</p>
+    </section>
+
+<section id="videos">
+    <h2>Latest Videos</h2>
+    <div class="video-container">
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/CH50zuS8DD0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container">
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/CH50zuS8DD0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container">
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/CH50zuS8DD0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <a href="https://www.youtube.com/@GLOWOfficialYT" class="view-channel-btn">View Our Channel</a>
+</section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For sponsorship or inquiries, please contact the head of the channel at <a href="mailto:a68568431@gmail.com">a68568431@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>Thanks for visiting GLOW - Subscribe for more!</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling functionality
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
